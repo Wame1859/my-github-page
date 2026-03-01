@@ -7,26 +7,32 @@ body {
     line-height:1.6;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
+.site-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    padding: 30px 20px;
     text-align: center;
 }
 
-header h1 {
-    margin: 0;
+.site-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
-nav a {
-    color: white;
+.site-nav a {
+    margin: 0 20px;
     text-decoration: none;
-    margin: 0 10px;
+    color: #555;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
 }
 
-nav a:hover {
-    text-decoration: underline;
+.site-nav a:hover {
+    color:#000;
 }
+
+
 
 main {
     padding: 20px;
@@ -42,34 +48,15 @@ main img {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: transparent;
+    color: #666;
     text-align: center;
-    padding: 10px;
-    position:fixed;
-    bottom:0;
-    width:100%;
+    padding: 40px 0;
+    position: relative;
+   
 }
 
 p {
 font-size: 1.1em;
 }
 
-a {
-    color:#4CAF50;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-img {
-    border:5 px solid #4CAF50;
-    border-radius: 10 px;
-}
-
-main a[href^="mailto:"] {
-    color:#ff5722;
-    font-weight:bold;
-}
