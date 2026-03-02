@@ -1,37 +1,46 @@
 body {
-    font-family:Arial, sans-serif;
-    color:#333;
-    background-color: #f9f9f9;
+    font-family: 'Inter', sans-serif;
+    color:#2f2f2f;
+    background-color: rgb(246, 145, 195);
     margin: 0;
     padding:0;
-    line-height:1.6;
+    line-height:1.7;
+}
+    h1, h2, h3, h4, h5 { 
+        font-family: 'Playfair Display' , serif;
+        letter-spacing: 0.5px;
 }
 
 .site-header {
-    background-color: #ffffff;
-    border-bottom: 1px solid #eee;
+    background-color: #fbf4eb;
+    border-bottom: 1px solid #e7e;
     padding: 30px 20px;
     text-align: center;
 }
 
 .site-title {
-    font-size: 1.8rem;
-    font-weight: 500;
-    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
 }
 
 .site-nav a {
-    margin: 0 20px;
-    text-decoration: none;
-    color: #555;
-    font-size: 0.95rem;
-    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    margin: 0 12px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
 }
 
 .site-nav a:hover {
-    color:#000;
+    color:#c2185b;
 }
 
+.site-nav a.active {
+    color: #c43670;
+    font-weight: 600;
+}
 
 
 main {
@@ -41,22 +50,68 @@ main {
 }
 
 main img {
-    max-width: 100%;
+    max-width: 40%;
     height:auto;
     display:block;
-    margin: 20px 0;
+    margin: 3rem auto;
 }
 
 footer {
     background-color: transparent;
     color: #666;
     text-align: center;
-    padding: 40px 0;
-    position: relative;
-   
+    padding: 40px 0;    position: relative;
 }
 
 p {
 font-size: 1.1em;
 }
 
+.home-intro-title {
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border: 1px solud #e9e;
+    border-radius: 0;
+    background-color: #f0d0a6;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    border-color: #cfcac2
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+section:last-of-type p {
+    max-width: 650px;
+}
+
+main section {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-title a:hover {
+    text-decoration: none;
+    color: #c43670;
+}
