@@ -44,17 +44,10 @@ body {
 
 
 main {
-    padding: 20px;
-    max-width: 800px;
+    padding:3rem 20px 4rem 20px;
+    max-width: 720px;
     margin: 0 auto;
-}
-
-main img {
-    max-width: 40%;
-    height:auto;
-    display:block;
-    margin: 3rem auto;
-}
+} 
 
 footer {
     background-color: transparent;
@@ -101,11 +94,6 @@ main section {
     margin: 0 auto;
 }
 
-main {
-    padding-top: 3rem;
-    padding-bottom: 4rem;
-}
-
 .card-title a {
     text-decoration: none;
     color: inherit;
@@ -114,4 +102,24 @@ main {
 .card-title a:hover {
     text-decoration: none;
     color: #c43670;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.image-grid img {
+    width: 180px;
+    height:auto;
+}
+
+.feature-image {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
 }
