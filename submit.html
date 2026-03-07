@@ -44,7 +44,7 @@
             <main>
             <section class="container py-5">
                 <h2>Archive Index</h2>
-                <table class="table">
+                <table class="table archive-table">
                     <tr>
                         <th>Entry</th>
                         <th>Category</th>
@@ -82,25 +82,25 @@
                         </tr>
                     </table>
 
-                    <br><br>
+                    <hr class="section-divider">
                     <h2>Submit</h2>
 
                     <form>
-                        <label>Name</label><br>
-                        <input type="text" name="name"><br><br>
+                        <label>Name</label>
+                        <input type="text" name="name" class="form-control">
 
-                        <label>Entry Title</label><br>
-                        <input type="text" name="title"><br><br>
+                        <label>Entry Title</label>
+                        <input type="text" name="title" class="form-control">
 
                         <label>Category</label><br>
-                        <select name="category">
+                        <select name="category" class="form-select">
                         <option>Framed in Film</option>
                         <option>Image as Authority</option>
                         <option>Softness as Strategy</option>
-                    </select><br><br>
+                    </select><br>
 
                        <label>Description</label><br>
-                    <textarea name="description" rows="4"></textarea><br><br>
+                    <textarea name="description" rows="4" class="form-control"></textarea>
 
                     <label>Medium</label><br>
                     <input type="radio" name="medium">Film
