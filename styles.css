@@ -33,6 +33,13 @@ body {
     letter-spacing: 1.5px;
 }
 
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
 .site-nav a:hover {
     color:#c2185b;
 }
