@@ -113,7 +113,7 @@ main section {
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200pc, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     justify-content: center;
     gap: 2rem;
     margin: 2rem 0;
@@ -126,7 +126,7 @@ main section {
 
 .feature-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 220px;
     height: auto;
     display: block;
     margin: 2rem auto;
