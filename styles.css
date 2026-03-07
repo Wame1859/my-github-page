@@ -172,3 +172,14 @@ main section {
     width:60%;
     opacity: 0.2;
 }
+ @media (max-width: 768px) {
+    .row {
+        display: block;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+ }
