@@ -202,3 +202,15 @@ main section {
     display: inline-block;
     margin-top: 20px;
  }
+  
+ .acknowledgement {
+    max-width: 650;
+    margin: 80px auto;
+    text-align: center;
+ }
+
+ .acknowledgement h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+ }
+
