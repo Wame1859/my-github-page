@@ -188,3 +188,17 @@ main section {
  img {
     max-width: 100%;
  }
+
+ .thank-you {
+    text-align: center;
+    margin-top: 80px;
+ }
+
+ .thank-you h1 {
+    font-size: 2rem;
+ }
+
+ .thank-you a {
+    display: inline-block;
+    margin-top: 20px;
+ }
