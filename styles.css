@@ -243,3 +243,28 @@ main section {
     50% {opacity: 1;}
     100% {opacity: 0;}
 }
+
+.card:hover , img:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+
+nav a hover {
+    color: #000;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #333;
+    color: white;
+    transition: 0.3s;
+}
+
+body {
+    animation: fadeIn 0.8s  ease-in;
+}
+
+@kieyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
