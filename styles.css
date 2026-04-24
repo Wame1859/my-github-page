@@ -264,7 +264,7 @@ body {
     animation: fadeIn 0.8s  ease-in;
 }
 
-@kieyframes fadeIn {
+@keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
