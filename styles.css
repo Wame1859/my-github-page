@@ -113,7 +113,7 @@ main section {
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 2rem;
     margin: 2rem 0;
@@ -121,8 +121,9 @@ main section {
 
 .image-grid img {
     width: 100%;
-   max-width: 160px;
-    height:auto;
+   max-width: 220px;
+    height:320px;
+    object-fit: cover;
 }
 
 .feature-image {
@@ -175,6 +176,16 @@ main section {
     opacity: 0.2;
 }
  @media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .image-grid img {
+        max-width: 100%;
+        height: auto;
+    }
+    
     .row {
         display: block;
     }
