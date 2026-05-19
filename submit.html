@@ -87,23 +87,23 @@
 
                     <form action="acknowledgement.html">
                         <label>Name</label>
-                        <input type="text" name="name" class="form-control">
+                        <input type="text" name="name" class="form-control" required>
 
                         <label>Entry Title</label>
-                        <input type="text" name="title" class="form-control">
+                        <input type="text" name="title" class="form-control" required>
 
                         <label>Category</label><br>
-                        <select name="category" class="form-select">
+                        <select name="category" class="form-select" required>
                         <option>Framed in Film</option>
                         <option>Image as Authority</option>
                         <option>Softness as Strategy</option>
                     </select><br>
 
                        <label>Description</label><br>
-                    <textarea name="description" rows="4" class="form-control"></textarea>
+                    <textarea name="description" rows="4" class="form-control" required></textarea>
 
                     <label>Medium</label><br>
-                    <input type="radio" name="medium"> Film
+                    <input type="radio" name="medium" required> Film
                     <input type="radio" name="medium"> Fashion
                     <input type="radio" name="medium"> Photography<br><br>
 
